@@ -1,0 +1,29 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 100vw;
+    height: 50px;
+    border: 1px solid black;
+    border-bottom:2px solid grey;
+    font-size: 35px;
+}
+img{
+    width: 28vw;
+    height: 60vh;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+span{
+    position: relative;
+    top: -100px;
+    left: 30px;
+    font-size: 35px;
+
+}
