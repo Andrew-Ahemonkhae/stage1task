@@ -1,9 +1,7 @@
 
-
-
 function updateUTCTime() {
     const d1 = new Date();
-    const utcTime = d1.getUTCMilliseconds();
+    const utcTime = d1.getTime();
     document.getElementById("utctime").innerHTML = utcTime;
 
     const day = d1.getDay();
@@ -12,8 +10,8 @@ function updateUTCTime() {
 
 }
 
-// Update the UTC time every second (1000 milliseconds)
+
 setInterval(updateUTCTime, 1);
 
-// Initial call to display the UTC time immediately
+
 updateUTCTime()
