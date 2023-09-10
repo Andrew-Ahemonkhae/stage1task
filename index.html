@@ -8,23 +8,37 @@
     
 </head>
 <body>
-    <div class="main-container">
-        <header>
-            <div class="navbar">SLACK PROFILE PAGE</div>
-        </header>
-        <div>
-            <img src="images/profileimg.jpg" alt="Slack username" data-testid="slackDisplayImage">
-
-            <span class="username" data-testid="slackUserName">ANDREW AHEMONKHAE</span>
-
+   <div class="main-container">
+      <div class="container">
+        <div class="wrapper">
+          <p class="username" data-testid="slackUserName">Matrix</p>
+          <div class="profile-img-wrapper">
+            <div id="profile-image">
+              <img
+                src="images/profileimg.jpg"
+                alt="Matrix"
+                data-testid="slackDisplayImage"
+              />
+            </div>
+          </div>
+          <div class="live-data">
             <p id="date" data-testid="currentDayOfTheWeek"></p>
             <p id="utctime" data-testid="currentUTCTime">UTC TIME</p>
-            <p data-testid="myTrack">Track: Frontend</p>
-
-            <a href="https://github.com/Andrew-Ahemonkhae/stage1task" target="_blank" rel="noreferrer" data-testid="githubURL">
-                <button>Github Link</button>
-            </a>
+            <p data-testid="myTrack">Frontend</p>
+            <button>
+              <a
+                href="https://github.com/Andrew-Ahemonkhae/stage1task"
+                target="_blank"
+                rel="noreferrer"
+                data-testid="githubURL"
+              >
+                Github Link
+              </a>
+            </button>
+          </div>
         </div>
+      </div>
+    </div>
        
             
         
